@@ -14,9 +14,10 @@ import kotlinx.android.synthetic.main.pergunta1_fragment.*
 
 class Pergunta1Fragment : Fragment() {
 
-    private lateinit var mainViewModel : MainViewModel
+    //private lateinit var mainViewModel : MainViewModel
     private lateinit var viewModelFactory: ViewModelFactory
     lateinit var usuario: usuario
+    lateinit var mainViewModel : MainViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -40,7 +41,12 @@ class Pergunta1Fragment : Fragment() {
             if (radioGroupP1.checkedRadioButtonId == -1) {
                 Toast.makeText(context, "Selecione uma opção!", Toast.LENGTH_LONG).show()
             } else {
-                usuario.pergunta1 = radioButton1a.isChecked
+                if (radioButton1a.isChecked){
+                    mainViewModel.pergunta1.value = true
+                }else{
+                    mainViewModel.pergunta1.value = false
+                }
+
 
                 findNavController().navigate(R.id.pergunta2Fragment)
             }

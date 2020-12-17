@@ -32,7 +32,7 @@ class TesteFragment : Fragment() {
 
 
 
-        if (!usuario.pergunta1 && !usuario.pergunta2 && !usuario.pergunta3 && !usuario.pergunta4 && !usuario.pergunta5 && !usuario.pergunta6){
+        if (mainViewModel.pergunta1.value == false && mainViewModel.pergunta2.value == false  && mainViewModel.pergunta3.value == false  && mainViewModel.pergunta4.value == false  && mainViewModel.pergunta5.value == false  && mainViewModel.pergunta6.value == true ){
             textViewResultado.text = "APROVADO"
             textViewSugestao.text = "De acordo com as respostas fornecidas você está apto para retornar ao trabalho presencial"
 

@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import br.ebarbosa.eloybarbosa_dr1_android_at.model.usuario
+import kotlinx.android.synthetic.main.pergunta1_fragment.*
 import kotlinx.android.synthetic.main.pergunta2_fragment.*
 import kotlinx.android.synthetic.main.pergunta6_fragment.*
 
@@ -38,7 +39,11 @@ class Pergunta6Fragment : Fragment() {
             if (radioGroupP6.checkedRadioButtonId == -1) {
                 Toast.makeText(context, "Selecione uma opção!", Toast.LENGTH_LONG).show()
             } else {
-                usuario.pergunta6 = radioButton6b.isChecked
+                if (radioButton6a.isChecked){
+                    mainViewModel.pergunta6.value = true
+                }else{
+                    mainViewModel.pergunta6.value = false
+                }
 
                 findNavController().navigate(R.id.testeFragment)
                 }
