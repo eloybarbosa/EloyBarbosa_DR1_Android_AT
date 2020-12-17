@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EloyBarbosa_DR1_Android_AT</string>
+    <string name="textTitulo">Questionário para avaliar condições de retorno ao trabalho presencial (Covid-19)</string>
+    <string name="textViewPwC">Questionário originalmente utilizado pela PwC Brasil para avaliação do nível de exposição dos seus funcionários ao Covid-19</string>
+    <string name="idCabecalho">textViewCabecalho</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textPergunta1">1. Informo que faço parte do grupo de risco (quadro de saúde imunodepressiva, isto é, doenças como asma, bronquite, diabetes, doenças cardiovasculares, câncer, entre outras que tornam o sistema imunológico frágil).</string>
+    <string name="textSim">Sim</string>
+    <string name="textNao">Não</string>
+    <string name="textProximo">Proximo</string>
+    <string name="textPergunta2">2. Eu informo que estou gestante.</string>
+    <string name="textPergunta3">3. Você teve qualquer um dos sintomas de COVID-19: tosse, febre, coriza, dor de garganta, dificuldade para respirar, nos últimos 14 dias?</string>
+    <string name="textPergunta4">4. Você teve suspeita de ter tido COVID-19 nos últimos 14 dias?</string>
+    <string name="textP4R1">Sim, ainda não fiz o teste para COVID-19 ou aguardo resultado / Sim, já fiz o teste e foi positivo para COVID-19</string>
+    <string name="textP4R2">Sim, já fiz o teste e o resultado foi negativo para COVID-19 / Não</string>
+</resources>

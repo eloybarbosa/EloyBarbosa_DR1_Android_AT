@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pergunta1Fragment">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewPergunta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textPergunta1"
+            android:textColor="#000000" />
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupP1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textSim" />
+
+
+            <RadioButton
+                android:id="@+id/radioButton1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textNao" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonPergunta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="488dp"
+            android:text="@string/textProximo" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

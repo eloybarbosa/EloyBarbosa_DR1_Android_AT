@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/pergunta1Fragment">
+
+    <fragment
+        android:id="@+id/pergunta1Fragment"
+        android:name="br.ebarbosa.eloybarbosa_dr1_android_at.Pergunta1Fragment"
+        android:label="pergunta1_fragment"
+        tools:layout="@layout/pergunta1_fragment" />
+    <fragment
+        android:id="@+id/pergunta2Fragment"
+        android:name="br.ebarbosa.eloybarbosa_dr1_android_at.Pergunta2Fragment"
+        android:label="pergunta2_fragment"
+        tools:layout="@layout/pergunta2_fragment" />
+    <fragment
+        android:id="@+id/pergunta3Fragment"
+        android:name="br.ebarbosa.eloybarbosa_dr1_android_at.Pergunta3Fragment"
+        android:label="pergunta3_fragment"
+        tools:layout="@layout/pergunta3_fragment" />
+    <fragment
+        android:id="@+id/pergunta4Fragment"
+        android:name="br.ebarbosa.eloybarbosa_dr1_android_at.Pergunta4Fragment"
+        android:label="pergunta4_fragment"
+        tools:layout="@layout/pergunta4_fragment" />
+    <fragment
+        android:id="@+id/pergunta5Fragment"
+        android:name="br.ebarbosa.eloybarbosa_dr1_android_at.Pergunta5Fragment"
+        android:label="pergunta5_fragment"
+        tools:layout="@layout/pergunta5_fragment" />
+    <fragment
+        android:id="@+id/pergunta6Fragment"
+        android:name="br.ebarbosa.eloybarbosa_dr1_android_at.Pergunta6Fragment"
+        android:label="pergunta6_fragment"
+        tools:layout="@layout/pergunta6_fragment" />
+    <fragment
+        android:id="@+id/testeFragment"
+        android:name="br.ebarbosa.eloybarbosa_dr1_android_at.TesteFragment"
+        android:label="teste_fragment"
+        tools:layout="@layout/teste_fragment" />
+</navigation>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pergunta2Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewPergunta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textPergunta2"
+            android:textColor="#000000" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupP2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textSim" />
+
+            <RadioButton
+                android:id="@+id/radioButton2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textNao" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonPergunta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textProximo" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
